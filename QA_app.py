@@ -1,13 +1,5 @@
 
 import streamlit as st
-import wikipedia
-from codetiming import Timer
-from fuzzysearch import find_near_matches
-from googleapi import google
-from transformers import AutoTokenizer, pipeline
-
-from html_utils import ga
-from utils import annotate_answer, get_results, shorten_text
 
 st.write("""
 # Arabic Open Domain Question Answering
